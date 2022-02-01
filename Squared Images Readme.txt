@@ -1,5 +1,5 @@
 
-Pipeline Image Extraction Tool (for MVI Modelers)
+Pipeline Image Extraction Tool (for IBM Maximo Visual Inspection Modelers)
 
 Squared Image Program
 
@@ -15,7 +15,10 @@ Setting up Python:
 4 Files
 .pynb Files can be opened with Jupyter Notebook
 .py files are Python files
-pipeline_jpg_v3.pypipeline_jpg_v3.ipynbpipeline_png_v3.ipynbpipeline_png_v3.py
+pipeline_jpg_v4_fills.py
+pipeline_jpg_v4_fills.ipynb
+pipeline_png_v4_fills.ipynb
+pipeline_png_v4_fills.py
 
 5 Library Modules are required:
 import cv2
@@ -30,4 +33,4 @@ Elementtree should be in stdlib.
 To ensure the binding of the xml libraries, I also instal lxml (with pip)
 
 =============================
-Contact: egamble@us.ibm.com  for help.
+Contact: gamblee@wfu.edu  for help.

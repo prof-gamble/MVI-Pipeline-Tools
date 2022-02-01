@@ -1,4 +1,4 @@
-Pipeline Image Extraction Tool (for MVI Modelers)
+Pipeline Image Extraction Tool (for IBM Maximo Visual Inspection Modelers)
 
 ============================
 Setting up Python:
@@ -6,7 +6,10 @@ Setting up Python:
 4 Files
 .pynb Files can be opened with Jupyter Notebook
 .py files are Python files
-pipeline_jpg_v2.pypipeline_jpg_v2.ipynbpipeline_png_v2.ipynbpipeline_png_v2.py
+pipeline_jpg_v4_nofill.py
+pipeline_jpg_v4_nofill.ipynb
+pipeline_png_v4_nofill.ipynb
+pipeline_png_v4_nofill.py
 
 4 Library Modules are required:
 import cv2
@@ -35,10 +38,10 @@ Executing the Program:
 (3) Add the .py file to the same directory that the export images and their xml files reside.
 (4) Run the python file from that same path or directory.
 
-Pro Tip: On my PC, I made a shortcut key that opens a terminal window from any directory/folder that I have selected in Finder(Mac) or FileExplorer(Windows).
+Usability Tip: On my PC, I made a shortcut key that opens a terminal window from any directory/folder that I have selected in Finder(Mac) or FileExplorer(Windows).
 
-At the terminal window:  python pipeline_jpg_v2.py
+At the terminal window:  python pipeline_jpg_v4_nofill.py
 It takes 5-20seconds to run depending on how many images.
 
 =============================
-Contact: egamble@us.ibm.com  for help.
+Contact: gamblee@wfu.edu  for help.
